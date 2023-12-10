@@ -6,19 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "tsc": "tsc",
+    "eslint": "eslint .",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^8.0.3",
+    "next": "13.5.4",
+    "prettier": "^3.1.1",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "eslint-config-next": "13.5.4",
+    "typescript": "^5"
   }
 }
